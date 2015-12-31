@@ -1,0 +1,4 @@
+<h1>QrCodeGenerator#index</h1>
+<p>Find me in app/views/qr_code_generator/index.html.erb</p>
+<%= link_to 'BarCode', barcode_path %>
+<%= raw @qrcode_for_html.to_html(:class_name => 'qrcode') %>
