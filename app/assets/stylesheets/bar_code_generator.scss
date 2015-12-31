@@ -1,0 +1,8 @@
+// Place all the styles related to the BarCodeGenerator controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+table.barby-barcode { border-spacing: 0; width:35%;}
+tr.barby-row {}
+td.barby-cell { width: 3px; height: 100px; }
+td.barby-cell.on { background: #000; }

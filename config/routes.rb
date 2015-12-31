@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+
+  get 'qrcode' => 'qr_code_generator#index', as: 'rqcode'
+
+  get 'barcode' => 'bar_code_generator#index', as: 'barcode'
+
+  root 'bar_code_generator#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
